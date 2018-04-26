@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//WebContent/WEB-INF/jsp/admin/home.jsp=UTF-8
+encoding//WebContent/WEB-INF/jsp/admin/include/sidebar.jsp=UTF-8
+encoding//WebContent/WEB-INF/jsp/admin/index.jsp=UTF-8
+encoding//WebContent/WEB-INF/jsp/admin/test1_xxxxx.jsp=UTF-8
+encoding//WebContent/WEB-INF/jsp/admin/test2_xxxxx.jsp=UTF-8
+encoding//WebContent/WEB-INF/jsp/student/commonpage.jsp=UTF-8
+encoding//WebContent/WEB-INF/jsp/student/hello.jsp=UTF-8
+encoding//WebContent/base.properties=UTF-8
+encoding//WebContent/static/admin/common/css/sccl.css=UTF-8
+encoding//src/project001/admin/impl/webInfoImpl_xxxxx.java=UTF-8
+encoding//src/project001/tbAPI/TaobaoTbkItemConvert.java=UTF-8
+encoding//src/project001/tbAPI/TaobaoTbkItemGet.java=UTF-8
+encoding//src/project001/tbAPI/TaobaoTbkItemInfoGet.java=UTF-8

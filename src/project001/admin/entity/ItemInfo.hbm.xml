@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2017-11-13 18:55:57 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="project001.admin.entity.ItemInfo" table="ITEMINFO">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="native" />
+        </id>
+        <property name="num_iid" type="long">
+            <column name="NUM_IID" />
+        </property>
+        <property name="title" type="java.lang.String">
+            <column name="TITLE" />
+        </property>
+        <property name="pict_url" type="java.lang.String">
+            <column name="PICT_URL" />
+        </property>
+        <property name="reserve_price" type="java.math.BigDecimal">
+            <column name="RESERVE_PRICE" />
+        </property>
+        <property name="zk_final_price" type="java.math.BigDecimal">
+            <column name="ZK_FINAL_PRICE" />
+        </property>
+        <property name="user_type" type="int">
+            <column name="USER_TYPE" />
+        </property>
+        <property name="provcity" type="java.lang.String">
+            <column name="PROVCITY" />
+        </property>
+        <property name="item_url" type="java.lang.String">
+            <column name="ITEM_URL" />
+        </property>
+        <property name="nick" type="java.lang.String">
+            <column name="NICK" />
+        </property>
+        <property name="seller_id" type="long">
+            <column name="SELLER_ID" />
+        </property>
+        <property name="volume" type="int">
+            <column name="VOLUME" />
+        </property>
+        <property name="small_images" type="java.lang.String">
+            <column name="SMALL_IMAGES" />
+        </property>
+        <property name="author" type="java.lang.String">
+            <column name="AUTHOR" />
+        </property>
+        <property name="tbkLink" type="java.lang.String">
+            <column name="TBKLINK" />
+        </property>
+        <property name="category_f_id" type="java.lang.String">
+            <column name="CATEGORY_F_ID" />
+        </property>
+        <property name="category_f_name" type="java.lang.String">
+            <column name="CATEGORY_F_NAME" />
+        </property>
+        <property name="category_c_id" type="java.lang.String">
+            <column name="CATEGORY_C_ID" />
+        </property>
+        <property name="category_c_name" type="java.lang.String">
+            <column name="CATEGORY_C_NAME" />
+        </property>
+        <property name="tag_f_id" type="int">
+            <column name="TAG_F_ID" />
+        </property>
+        <property name="tag_f_title" type="java.lang.String">
+            <column name="TAG_F_TITLE" />
+        </property>
+        <property name="tag_c_id" type="java.lang.String">
+            <column name="TAG_C_ID" />
+        </property>
+        <property name="tag_c_title" type="java.lang.String">
+            <column name="TAG_C_TITLE" />
+        </property>
+        <property name="tag_id" type="int">
+            <column name="TAG_ID" />
+        </property>
+        <property name="tag_title" type="java.lang.String">
+            <column name="TAG_TITLE" />
+        </property>
+        <property name="uuid" type="java.lang.String">
+            <column name="UUID" />
+        </property>
+        <property name="createTime" type="java.lang.String">
+            <column name="CREATETIME" />
+        </property>
+        <property name="keyword" type="java.lang.String">
+            <column name="KEYWORD" />
+        </property>
+        <property name="description" type="java.lang.String">
+            <column name="DESCRIPTION" />
+        </property>
+        <property name="Color" type="java.lang.String">
+            <column name="COLOR" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2017-10-19 12:39:29 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="project001.admin.entity.Image" table="IMAGE">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="native" />
+        </id>
+        <property name="tagUuid" type="java.lang.String">
+            <column name="TAGUUID" />
+        </property>
+        <property name="url" type="java.lang.String">
+            <column name="URL" />
+        </property>
+        <property name="createTime" type="java.lang.String">
+            <column name="CREATETIME" />
+        </property>
+    </class>
+</hibernate-mapping>
